@@ -1,0 +1,10 @@
+*{
+    primary-color: #00d0ff;
+    base-color: #1a1a1a;
+}
+
+.main{
+    -fx-background-color: base-color;
+    -fx-min-width: 450px;
+    -fx-min-height: 300px;
+}

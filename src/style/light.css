@@ -1,0 +1,58 @@
+*{
+    primary-color: #00d0ff;
+    base-color: #e6e6e6;
+    warning-color: #ca9a00;
+    danger-color: #ca0000;
+    gray-color: #4c4c4c;
+    container-color: white;
+}
+
+.main{
+    -fx-background-color: base-color;
+    -fx-min-width: 450px;
+    -fx-min-height: 300px;
+    -fx-padding: 20px;
+}
+
+.form{
+    -fx-padding: 5px;
+    -fx-min-width: 400px;
+    -fx-min-height: 300px;
+    -fx-background-color: container-color;
+    -fx-background-radius: 7px;
+}
+
+.title{
+    -fx-font-size: 20px;
+    -fx-text-fill: primary-color;
+    -fx-font-weight: bold;
+}
+
+.field{
+    -fx-padding: 5px;
+    -fx-min-height: 20px;
+    -fx-min-width: 40px;
+}
+
+.field .label{
+    -fx-text-fill: gray-color;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.field .label.warning{
+    -fx-text-fill: warning-color;
+}
+
+.field .label.danger{
+    -fx-text-fill: danger-color;
+}
+
+.field .text-field{
+    -fx-background-color: base-color;
+    -fx-text-fill: gray-color;
+    -fx-padding: 5px;
+    -fx-background-radius: 7px;
+    -fx-min-height: 20px;
+    -fx-min-width: 40px;
+}
